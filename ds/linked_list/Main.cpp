@@ -10,5 +10,6 @@ int main()
   bubbleSort(head);
   displayLinkedList(head);
   std::cout << "The size of linked list is : " << sizeOfLinkedList(head) << std::endl;
+
   return 0;
 }
