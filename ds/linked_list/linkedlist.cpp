@@ -44,9 +44,9 @@ void bubbleSort(node *head)
   std::size_t size = sizeOfLinkedList(head);
   int tmp = 0;
 
-  for (int i = 0; i < size; i++)
+  for (unsigned int i = 0; i < size; i++)
   {
-    for (int j = 0; j < size - i; j++)
+    for (unsigned int j = 0; j < size - i; j++)
     {
       if (head->next && (head->data > head->next->data))
       {
